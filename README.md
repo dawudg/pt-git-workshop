@@ -1,199 +1,36 @@
-# Git Intro
+# Introduction to Git and GitHub
 
-## Points of discussion during presantation
+Version control is a crucial aspect of software development, enabling teams to collaborate efficiently and manage changes to their codebase. Git, one of the most popular version control systems, revolutionized the way developers track changes, collaborate, and manage code.
 
-### Topics
+- [Git Installation & Setup](https://github.com/dawudg/pt-git-workshop/blob/main/GIT_INSTALLATION.md)
+- [Git Commands](https://github.com/dawudg/pt-git-workshop/blob/main/GIT_COMMANDS.md)
+- [Git Repository Management](https://github.com/dawudg/pt-git-workshop/blob/main/GIT_MANAGEMENT.md)
+- [Github Profile Management](https://github.com/dawudg/pt-git-workshop/blob/main/GITHUB_PROFILE.md)
 
-- What is and why do we need version control?
-- What is Git?
-  - mention git's use case a version control manager, and also a collaboration tool
-- What is Github and how is it different from Git?
-  - mention alternatives to github
-- Basic uses of git:
-  - repo initialization
-  - tracking local changes in 3 stages: working files, staged changes and commits
-  - .gitignore file, also mention some examples where .gitignore would be useful
-  - git workflow / most common scenarios (use a good image visualizing source code version work tree with branches commits and all that stuff):
-    - cloning a repository
-    - creating branches locally
-      - mention standard branch use cases like having a development branch, separate one for each significant feature and naming conventions (feat/..., chore/..., fix/...)
-    - adding or removing files to staged
-    - making commits
-      - mention standard for commit names
-    - pushing and it's different options
-    - stashing changes
-    - merging branches (locally), and mention merge conflicts (also best practices on how to resolve them)
-      - mention rebasing
-    - pulling changes with `git pull`
-- Collaborating on Github
-- Github Branches (cloud)
-- Github Pull Requests
-  - Reviewing and approving a pull request on Github
-- Github Issues
-- Github Actions (brief introduction)
-- Github profile improvements for better chances on getting a job:
-  - a lot of commit activity / contributions
-    - personal projects
-    - open source
-      - introduction to contributing open source
-  - number of repositories
-  - custom markdown file to show in profile
+## History of Git
 
-## Git Intro
+**Git** was created by Linus Torvalds, the same person who created the Linux operating system, in 2005. Torvalds developed **Git** to address the shortcomings of existing version control systems, particularly in the context of the Linux kernel development. His goal was to create a distributed version control system that could handle the scale and complexity of large projects like the Linux kernel, while also being fast and efficient.
 
-- [Git installation](#git-installation)
-- [Git user configuration](#git-user-configuration)
-- [Repository initialization](#repository-initialization)
-- [Common Git commands](#common-git-commands)
+## Why Git?
+**Git** offers several advantages over traditional version control systems:
 
-### Git Installation
+- **Distributed Architecture:** Unlike centralized version control systems where there's a single repository, **Git** is distributed. Every developer has a complete copy of the repository on their local machine, allowing them to work offline and commit changes locally before syncing with the central repository.
 
-1. You can download **Git** [here](https://git-scm.com/download) and then select your operating system to download.
-2. Follow the necessary installer guide until installation is complete. Open the command prompt (Windows) or terminal (MacOS, Linux) and type `git version` to verify that **Git** was successfully installed.
+- **Branching and Merging:** **Git** makes branching and merging workflows incredibly easy. Developers can create lightweight branches to work on new features or bug fixes without affecting the main codebase. Merging changes back into the main branch is also straightforward and often automated.
 
-### Git User Configuration
+- **Speed and Performance:** **Git** is known for its speed and efficiency, allowing developers to perform operations like branching, merging, and diffing quickly, even with large codebases.
 
-1. To set your **Git** username, type this in your terminal:
 
-```shell
-git config --global user.name "User Name"
-```
+## Git vs. GitHub
 
-- To confirm that you have set your **Git** username correctly, type this:
+While **Git** is a version control system, **GitHub** is a web-based platform built around **Git**. **GitHub** provides additional features and services on top of **Git**, making it a popular choice for hosting **Git** repositories and collaborating on projects. Here are some key differences between **Git** and **GitHub**:
 
-```shell
-git config --global user.name
-```
+- **Git:** is the version control system itself, a command-line tool that manages repositories on your local machine.
 
-2. To set your **Git** email, type this in your terminal:
+- **GitHub:** is a cloud-based platform that hosts **Git** repositories, providing a graphical interface and additional features like issue tracking, pull requests, and project management tools. It facilitates collaboration among developers and serves as a central hub for sharing and managing code.
 
-```shell
-git config --global user.email "youremail@gmail.com"
-```
+- **Collaboration:** While **Git** allows developers to collaborate locally and over networks, **GitHub** extends this collaboration by providing a centralized platform for hosting, sharing, and contributing to open-source projects.
 
-- To confirm that you have set your **Git** email correctly, type this:
+- **Visibility and Discoverability:** **GitHub** offers a social aspect, allowing developers to showcase their work, follow projects, and contribute to open-source communities. It enhances visibility and discoverability of projects, making it easier for developers to find and engage with others in the community.
 
-```shell
-git config --global user.email
-```
-
-### Repository Initialization
-
-1. Create **Github** Repository by going to your repositories page on **Github** and click on **"new"** or open this [link](https://github.com/new).
-2. After filling in the repository name and chose it's visibility setting, click on **"Create Repository"**.
-3. On the root folder of your project you want to open the terminal and type this:
-
-```shell
-git init
-```
-
-4. Create a **.gitignore** file in your folder.
-5. After making the necessary changes to your .gitignore file add all the current working files in **"staging"** by using this command:
-
-```shell
-git add .
-```
-
-6. Create default branch:
-
-```shell
-git branch -M main
-```
-
-7. Add remote origin by providing the link to your **Github** repository:
-
-```shell
-git remote add origin https://github.com/username/repo-name.git
-```
-
-8. Push your changes:
-
-```shell
-git push -u origin main
-```
-
-### Common Git Commands
-
-1. Initialize repository.
-
-```shell
-git init
-```
-
-2. Add all working changes to staged.
-
-```shell
-git add .
-```
-
-3. Commit all staged changes.
-
-```shell
-git commit -m "commit message"
-```
-
-4. Commit all working files, skip staging process completely
-
-```shell
-git commit -a -m "commit message"
-```
-
-5. Push commits to cloud repository (Github).
-
-```shell
-git push
-```
-
-6. Force push commits when normal pushing fails because of merge conflicts (avoid using).
-
-```shell
-git push --force
-```
-
-7. List all local branches.
-
-```shell
-git branch
-```
-
-8. Create new local branch.
-
-```shell
-git branch branchname
-```
-
-9. Delete local branch.
-
-```shell
-git branch -D branchname
-```
-
-10. Switch to different branch, when doing this make sure you either commit or stash current changes.
-
-```shell
-git checkout branchname
-```
-
-11. Switch to different branch, when doing this make sure you either commit or stash current changes.
-
-```shell
-git merge branchname
-```
-
-12. Stash changes.
-
-```shell
-git stash
-```
-
-add `--include-untracked` to include newly created files.
-
-```shell
-git stash --include-untracked
-```
-
-13. Unstash stashed changes.
-
-```shell
-git stash pop
-```
+In summary, **Git** is the underlying version control system that powers **GitHub**, providing the foundation for collaborative software development, while **GitHub** offers a platform with additional features and services to enhance collaboration, visibility, and productivity.
