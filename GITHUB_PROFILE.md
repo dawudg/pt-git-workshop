@@ -2,7 +2,7 @@
 
 - [Profile README](#profile-readme)
 - [Repository Structuring and the Contribution Chart](#repository-structuring-and-the-contribution-chart)
-- [Git user configuration](#git-user-configuration)
+- [Additional Info](#additional-info)
 
 ## Profile README
 

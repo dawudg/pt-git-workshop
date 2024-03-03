@@ -1,7 +1,7 @@
 # Git Repository Management
 
-- [.gitignore](#.gitignore)
-- [README](#readme.m)
+- [.gitignore](#gitignore)
+- [README](#readme)
 - [Licenses](#licenses)
 - [Adding Collaborators](#adding-collaborators)
 - [Description and Tags](#description-and-tags)
