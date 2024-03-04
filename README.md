@@ -1,8 +1,8 @@
 # Introduction to Git and GitHub - Version Control
 
-![Version Control - Commit History](https://i.imgur.com/AAsaUWh.png)
-
 Version control is a crucial aspect of software development, enabling teams to collaborate efficiently and manage changes to their codebase. Git, one of the most popular version control systems, revolutionized the way developers track changes, collaborate, and manage code.
+
+![Version Control - Commit History](https://i.imgur.com/AAsaUWh.png)
 
 - [Git Installation & Setup](https://github.com/dawudg/pt-git-workshop/blob/main/GIT_INSTALLATION.md)
 - [Git Commands](https://github.com/dawudg/pt-git-workshop/blob/main/GIT_COMMANDS.md)
