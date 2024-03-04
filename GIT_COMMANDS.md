@@ -1,5 +1,13 @@
 # Git Commands
 
+- Git & Github Workflow
+
+![Git & Github Workflow](https://i.imgur.com/3Y0oCx6.png)
+
+- Branches
+
+![Branches](https://i.imgur.com/QtsQG8O.png)
+
 - [Repository initialization](#repository-initialization)
 - [Common Git commands](#common-git-commands)
 
