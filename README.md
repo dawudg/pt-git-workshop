@@ -1,4 +1,4 @@
-# Introduction to Git and GitHub
+# Introduction to Git and GitHub - Version Control
 
 ![Version Control - Commit History](https://i.imgur.com/AAsaUWh.png)
 
