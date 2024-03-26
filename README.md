@@ -8,7 +8,7 @@ Version control is a crucial aspect of software development, enabling teams to c
 - [Git Commands](https://github.com/dawudg/pt-git-workshop/blob/main/GIT_COMMANDS.md)
 - [Git Repository Management](https://github.com/dawudg/pt-git-workshop/blob/main/GIT_MANAGEMENT.md)
 - [Github Profile Management](https://github.com/dawudg/pt-git-workshop/blob/main/GITHUB_PROFILE.md)
-Part 2 (Advanced Version Control)
+- Part 2 (Advanced Version Control)
 - [Git Collaboration](https://github.com/dawudg/pt-git-workshop/blob/main/GIT_COLLABORATION.md)
 - [Git Branches](https://github.com/dawudg/pt-git-workshop/blob/main/GIT_BRANCHES.md)
 - [Pull Requests](https://github.com/dawudg/pt-git-workshop/blob/main/PULL_REQUESTS.md)
