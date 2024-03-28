@@ -1,4 +1,4 @@
-[Back](#README.md) - [Next](#GIT_BRANCHES.md)
+[Back](https://github.com/dawudg/pt-git-workshop/blob/main/README.md) - [Next](https://github.com/dawudg/pt-git-workshop/blob/main/GIT_BRANCHES.md)
 
 # Git Collaboration
 
