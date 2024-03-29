@@ -1,4 +1,4 @@
-[Back](https://github.com/dawudg/pt-git-workshop/blob/main/PULL_REQUESTS.md) - [Next](https://github.com/dawudg/pt-git-workshop/blob/main/ACTIONS.md)
+[Back](https://github.com/dawudg/pt-git-workshop/blob/main/GIT_COLLABORATION.md) - [Next](https://github.com/dawudg/pt-git-workshop/blob/main/GIT_BRANCHES.md)
 
 # Issues
 
