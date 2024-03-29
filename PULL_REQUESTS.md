@@ -19,7 +19,7 @@ You can provide a title and description, then click on "Create Pull Request".
 ![Creating PR](https://i.imgur.com/ElduCLE.png)
 
 
-## Reviewing and Approving Pull Reqeuests
+## Reviewing and Approving Pull Requests
 
 Open the PR on Github, examine the changes made and you can leave comments, approve or request changes.
 After approving you can merge the pull request to the base branch (base branch is chosen when creating the PR).
