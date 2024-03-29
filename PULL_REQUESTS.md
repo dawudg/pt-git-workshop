@@ -6,7 +6,7 @@ Pull requests are a key feature for collaboration, allowing developers to propos
 They provide a structured way to discuss and incorporate modifications, fostering teamwork and code quality.
 Pull requests facilitate transparency and accountability in the development process, ensuring that changes are thoroughly reviewed before being merged into the main codebase.
 
-- [Creating a Pull Request on Github](#creating-a-pull-request-on-github-(pr))
+- [Creating a Pull Request on Github](#creating-a-pull-request-on-github-pr)
 - [Reviewing and approving Pull Requests](#reviewing-and-approving-pull-requests)
 
 
