@@ -1,4 +1,4 @@
-[Back](https://github.com/dawudg/pt-git-workshop/blob/main/ISSUES.md)
+[Back](https://github.com/dawudg/pt-git-workshop/blob/main/PULL_REQUESTS.md)
 
 # Actions
 
